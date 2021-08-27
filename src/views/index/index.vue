@@ -37,6 +37,21 @@
                 <i class="el-icon-setting"></i>
                 <span slot="title">导航三</span>
               </el-menu-item>
+              <el-menu-item index="/OPT3"
+                            @click="goTo('/OPT3')">
+                <i class="el-icon-setting"></i>
+                <span slot="title">导航四</span>
+              </el-menu-item>
+              <el-menu-item index="/OPT4"
+                            @click="goTo('/OPT4')">
+                <i class="el-icon-setting"></i>
+                <span slot="title">导航五</span>
+              </el-menu-item>
+              <el-menu-item index="/OPT5"
+                            @click="goTo('/OPT5')">
+                <i class="el-icon-setting"></i>
+                <span slot="title">导航六</span>
+              </el-menu-item>
             </el-menu>
           </el-col>
         </el-row>
